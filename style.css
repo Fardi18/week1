@@ -1,0 +1,86 @@
+/* body */
+body {
+  font: 16px/28px sans-serif;
+  margin: auto;
+  width: 80%;
+}
+/* nav */
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+nav h1 {
+  color: salmon;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 60px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: salmon;
+}
+
+/* Main */
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.text h1 {
+  line-height: 0px;
+  color: salmon;
+}
+.text p {
+  margin-top: 20px;
+  color: grey;
+}
+.text h4 {
+  color: dimgray;
+  margin-top: 80px;
+}
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: salmon;
+  margin-top: 40px;
+}
+button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  border: 1px solid salmon;
+}
+button a:hover {
+  color: salmon;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer li {
+  list-style: none;
+  display: inline-block;
+  color: black;
+  padding-left: 20px;
+}
+.footer li a {
+  text-decoration: none;
+  color: black;
+}
+.footer li a:hover {
+  color: salmon;
+}
