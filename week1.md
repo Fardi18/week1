@@ -265,7 +265,7 @@
       </html>
     ```
   - Internal CSS
-    menggunakan element style untuk menyisipkan kode CSS. Element style tersebut diletakkan di dalam element.
+    menggunakan element style untuk menyisipkan kode CSS. Element style tersebut diletakkan di dalam element head.
     ```HTML
     <!DOCTYPE html>
     <html>
@@ -290,7 +290,7 @@
       </html>
     ```
   - Eksternal CSS
-    sebuah file CSS terpisah yang disambungkan dengan file HTML dengan menggunakan element link.
+    sebuah file CSS terpisah yang disambungkan dengan file HTML dengan menggunakan tag link.
     ```HTML
     <!-- File index.html -->
     <!DOCTYPE html>
