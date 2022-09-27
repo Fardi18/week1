@@ -490,7 +490,7 @@
 
   C = A;
   A = B;
-  C = B;
+  B = C;
 
   console.log(A, B);
   ```
