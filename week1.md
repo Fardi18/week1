@@ -345,7 +345,7 @@
   Flexbox adalah cara untuk mengatur layout. Flexbox direkomendasikan karena penggunaannya yang mudah dan didukung oleh kebanyakan browser. Flexbox memiliki kemampuan untuk menyesuaikan layout secara otomatis.
   Konsepnya sederhana. Flexbox memiliki 1 parent/container dan bisa beberapa child/item.
 
-  - flex-direction : digunakan untuk mengatur letak item child. ada 4 value flex-direction yang harus kamu ketahui:
+  - flex-direction : digunakan untuk mengatur letak item child.
   - flex-wrap : item pada flex akan mencoba masuk atau fit ke dalam suatu baris
   - flex-flow : digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap bersamaan.
   - justify-content : digunakan untuk mengatur tata letak dan space antar item child secara horizontal atau main axis.
